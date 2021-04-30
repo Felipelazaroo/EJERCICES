@@ -5,3 +5,6 @@ while True:
         chek = p*iva
         valoriva = p + chek
         print("El valor original del producto es", p, "El iva de este fue de", chek, "y el valor total a pagar con iva es de", valoriva)
+      break
+    except:
+        print("Asegurese de poner bien el numero")
